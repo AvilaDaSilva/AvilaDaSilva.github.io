@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+	<head>
+		<meta charset="UTF-8">
+		<title>Exercícios parte 1</title>
+		
+		<style>
+			div {
+				padding: 1%;
+				margin: 1%;
+				display: block;
+			}
+			.col-sm-4 {
+				width: 33%;
+			}
+			div h5 {
+				padding: 2%;
+			}
+			#novo-teste:active {
+				background-color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1 style="text-align: center">Links e exercícios</h1>
+		</header>
+		<main style="padding: 2% 5%">
+		
+			<a href="#">Link para perfil</a>
+			<a href="#">Link para não sei o que</a>
+		
+			<hr>
+			
+			<h2>Desafios</h2>
+		
+			<button onclick="exemplo()">Atividade 1</button>
+			
+		</main>
+	</body>
+	<script>
+		function exemplo() {
+			alert("chamou");
+		}
+	</script>
+</html>
